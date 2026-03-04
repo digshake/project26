@@ -7,9 +7,8 @@
 * 
 * 
 
-## Use cases
+## User stories
 
-** The user stories completed for this iteration are: **
 1. A bank customer should be able to deposit into an existing account. (Shook)
 2. A bank customer should be able to withdraw from an account. 
 3. A bank customer should be able to check their account balance. 
@@ -20,8 +19,8 @@
 8. A bank adminstrator should be able to collect fees from existing accounts when necessary.
 9. A bank adminstrator should be able to add an interest payment to an existing account when necessary.
 
-What user stories do you intend to complete next iteration?
+## What user stories do you intend to complete next iteration?
 
-Is there anything that you implemented but doesn't currently work?
+## Is there anything that you implemented but doesn't currently work?
 
-What commands are needed to compile and run your code from the command line
+## What commands are needed to compile and run your code from the command line?
