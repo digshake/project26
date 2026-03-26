@@ -1,4 +1,6 @@
 package main;
+import java.util.Scanner;
+
 
 public class BankAccount {
 
@@ -18,5 +20,15 @@ public class BankAccount {
 
     public double getBalance() {
         return this.balance;
+    }
+
+    public double makeTransfer(double amountToTransfer, BankAccount alternative){
+        System.err.println(balance);
+        if(balance > amountToTransfer){
+            balance = balance - amountToTransfer;
+            alternative.deposit(amountToTransfer);
+        }else{
+           System.err.println("INSUFFICIENT FUNDS"); 
+        }
     }
 }
